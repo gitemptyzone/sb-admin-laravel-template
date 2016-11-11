@@ -1,0 +1,25 @@
+{
+  "name": "sb-admin-laravel-2",
+  "description": "This package is to create new Laravel project with the famous Free Admin Bootstrap Theme SB Admin v2.0.",
+  "version": "0.0.0",
+  "authors": [
+    "Junewon Park <emptyzone@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "jquery-ui": "^1.12.1",
+    "startbootstrap-sb-admin-2": "https://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git"
+  },
+  "resolutions": {
+    "font-awesome": "~4.6.3"
+  }
+}

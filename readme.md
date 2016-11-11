@@ -1,40 +1,34 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img width="150"src="https://laravel.com/laravel.png"></a></p>
+# SB Admin v2.0 rewritten in Laravel 5.3
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+This package is a template to create new Laravel project with the famous Free Admin Bootstrap Theme SB Admin v2.0.
+It was inspired by [SB Admin v2.0 rewritten in Laravel](https://github.com/start-laravel/sb-admin-laravel-5) project.
+In this project, the version of Larave has been updgrated to Laravel 5.3. SB-Admin 2 package also has been upgraded to 3.1.7+1.
 
-## About Laravel
+Find out more [Free Laravel Themes at StartLaravel.com](http://www.startlaravel.com/)..
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+## Features
+1. Using the latest version of SB Admin 2
+2. Creating a siglgle file css and js file to use SB Admin 2
+3. Using Elixir versionning
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Installation
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+1. Clone this project or Download that ZIP file
+2. Make sure you have bower, gulp and npm installed globally
+3. On the command prompt run the following commands
+- `cd <install-directory>`
+- Set permission 777 for /storage and /bootstrap/cache
+- `composer install`
+- `npm install`
+- `bower install`
+- `gulp watch`
+- `copy .env.sample .env`
+- `php artisan key:generate`
+- `php artisan cache:clear`
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
-
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+## References
+1. [Start Bootstrap - SB Admin 2](https://startbootstrap.com/template-overviews/sb-admin-2/)
+2. [SB Admin Laravel 5](http://startlaravel.com/themes/sb-admin-laravel-5/)
+3. [Meet Elixir, the Laravel Way of Compiling Assets](https://www.sitepoint.com/meet-elixir-the-laravel-way-of-compiling-assets/)
+4. [Creating a Website Using Laravel 5 Part 1: Elixir and Assets](http://www.codeheaps.com/php-programming/creating-website-using-laravel-5-elixir-assets/)
+5. [Compiling Assets (Laravel Elixir)](https://laravel.com/docs/5.3/elixir)
