@@ -10,3 +10,5 @@ Homestead.yaml
 .settings
 .buildpath
 .project
+/tests/MakeGoodPreload.php
+_ide_helper.php

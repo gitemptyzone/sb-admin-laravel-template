@@ -23,6 +23,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        // Loading the Laravel IDE Helper on non-production enviroments.
+    	if ($this->app->environment() !== 'production') {
+    		$this->app->register(\Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class);
+    	}
     }
 }
