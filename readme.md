@@ -10,6 +10,7 @@ Find out more [Free Laravel Themes at StartLaravel.com](http://www.startlaravel.
 1. Using the latest version of SB Admin 2
 2. Creating a siglgle file css and js file to use SB Admin 2
 3. Using Elixir versionning
+4. Development and debugging tools: [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) and [Laravel 5 IDE Helper Generator](https://github.com/barryvdh/laravel-ide-helper)
 
 ## Installation
 
